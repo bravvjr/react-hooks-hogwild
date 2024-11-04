@@ -7,7 +7,7 @@ body {
 .App {
   margin: 0% 5% 0% 5%;
   text-align: center;
-}
+} 
 
 .TwirlyPig {
   transition: all 3s ease-in-out;
@@ -20,6 +20,12 @@ body {
 
 .navWrapper {
   margin-bottom: 2%;
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-bottom: 2px solid #ddd;
+  align-items: center;
+  width: 100vw;
 }
 
 .filterWrapper {
@@ -80,6 +86,8 @@ ul {
 
 
 .pigTile {
+  width: 300px;
+  height: max-content;
   display: inline;
   background-repeat: no-repeat;
   background-position: center 90%;
@@ -91,12 +99,22 @@ ul {
   opacity: 1;
 }
 
+.pigImg{
+  height: 200px;
+  background-size: cover;
+  z-index: -3;
+
+
+}
+
 .minBackgroundSneak {
   position: absolute;
   width: inherit;
   height: inherit;
   background-size: cover;
   z-index: -3;
+  opacity: 0.75;
+
 }
 
 .maxBackgroundSneak {
